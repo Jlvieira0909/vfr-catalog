@@ -1,0 +1,43 @@
+.VFRCardContainer {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #ffffff;
+}
+
+.VFRCardPhotosCarousel {
+}
+
+.VFRCardInfos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0% 2%;
+}
+
+.VFRCardName {
+}
+
+.VFRCardButton {
+  display: flex;
+  flex-direction: row;
+}
+
+.VFRCardButton:hover {
+  text-decoration: underline;
+}
+
+.VFRCardButtonText {
+  font-weight: 200;
+  font-size: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.VFRCardLinkIcon {
+  margin-top: 2%;
+}
+
+.VFRCardDescription {
+  padding: 0% 2%;
+  padding-bottom: 2%;
+}
