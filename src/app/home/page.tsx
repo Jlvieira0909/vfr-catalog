@@ -13,7 +13,7 @@ export default function Home() {
           vfrCardImage="/images/Placeholder.jpg"
           vfrName="THE OG"
           vfrCardDescription="Cant miss woth the classic right?"
-          vfrCardPage=""
+          vfrCardPage="/og"
         />
         <VFRCard
           vfrCardImage="/images/Placeholder.jpg"

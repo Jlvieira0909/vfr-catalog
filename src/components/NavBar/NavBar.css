@@ -1,0 +1,16 @@
+.NavBarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000000;
+  position: fixed;
+  z-index: 999999;
+  padding: 15;
+  width: 100vw;
+  height: 6vh;
+}
+
+.NavBarLogo {
+  width: 8vw;
+  padding: 2%;
+}
