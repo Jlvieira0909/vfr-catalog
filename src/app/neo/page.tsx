@@ -2,13 +2,13 @@ import NavBar from "@/components/NavBar/NavBar";
 import "./VFRPage.css";
 import Footer from "@/components/Footer/Footer";
 
-export default function Og() {
+export default function Neo() {
   return (
     <>
       <NavBar />
       <div className="VFRContainer">
         <div className="VFRMainSection">
-          <h1 className="VFRFlavourTitle">REBEL LIKE THE OG!</h1>
+          <h1 className="VFRFlavourTitle">THE SAME BUT DIFFERENT!</h1>
           <div className="VFRThumbNail"></div>
         </div>
 
@@ -16,7 +16,9 @@ export default function Og() {
           <div className="VFRBackground"></div>
           <div className="VFRSectionContainer">
             <div className="VFRSection">
-              <h1 className="VFRTitle">The Original, The Classic!</h1>
+              <h1 className="VFRTitle">
+                From he Future Directly to Your STORE!
+              </h1>
               <p className="VFRDescription">
                 You can't miss with the classics, right? <br /> with a default
                 look that never gets old, this layout focuses on the simplier

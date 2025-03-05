@@ -8,7 +8,7 @@ export default function Og() {
       <NavBar />
       <div className="VFRContainer">
         <div className="VFRMainSection">
-          <h1 className="VFRFlavourTitle">REBEL LIKE THE OG!</h1>
+          <h1 className="VFRFlavourTitle">IT'S TIME TO GET WILD!</h1>
           <div className="VFRThumbNail"></div>
         </div>
 
@@ -16,7 +16,7 @@ export default function Og() {
           <div className="VFRBackground"></div>
           <div className="VFRSectionContainer">
             <div className="VFRSection">
-              <h1 className="VFRTitle">The Original, The Classic!</h1>
+              <h1 className="VFRTitle">For Yours Wildest Toughts!</h1>
               <p className="VFRDescription">
                 You can't miss with the classics, right? <br /> with a default
                 look that never gets old, this layout focuses on the simplier
