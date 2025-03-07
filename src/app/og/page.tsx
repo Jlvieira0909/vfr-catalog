@@ -5,6 +5,11 @@ import Footer from "@/components/Footer/Footer";
 export default function Og() {
   return (
     <>
+      <script
+        defer
+        id="sizebay-vfr-v4"
+        src="https://static.sizebay.technology/VFRCatalog/Original/prescript.js"
+      ></script>
       <NavBar />
       <div className="VFRContainer">
         <div className="VFRMainSection">
