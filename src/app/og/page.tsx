@@ -8,7 +8,12 @@ export default function Og() {
       <script
         defer
         id="sizebay-vfr-v4"
-        src="https://static.sizebay.technology/VFRCatalog/Original/prescript.js"
+        src="https://static.sizebay.technology/VFRCatalog/Original/Desktop/prescript.js"
+      ></script>
+      <script
+        defer
+        id="sizebay-vfr-v4"
+        src="https://static.sizebay.technology/VFRCatalog/Original/Mobile/prescript.js"
       ></script>
       <NavBar />
       <div className="VFRContainer">

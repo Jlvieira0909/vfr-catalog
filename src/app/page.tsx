@@ -1,95 +1,36 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import "../app/home/Home.css";
+import VFRCard from "@/components/VFRCard/VFRCard";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <div className="homeContainer">
+      <div className="homeBackground"></div>
+      <h1 className="homeTitle">
+        Welcome to the Virtual Fitting Room Catalog!
+      </h1>
+      <h2 className="homeFlavourText">
+        Make it your style, create it as your own image!
+      </h2>
+      <div className="homeVFRCatalog">
+        <VFRCard
+          vfrCardImage="/images/OGHeader.jpg"
+          vfrName="THE ORIGINAL"
+          vfrCardDescription="Cant miss woth the classic right?"
+          vfrCardPage="/og"
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        <VFRCard
+          vfrCardImage="/images/NeoDefaultHeader.jpg"
+          vfrName="NEO DEFAULT"
+          vfrCardDescription="The classic, but with a little touch of modernity!"
+          vfrCardPage="/neo"
+        />
+        <VFRCard
+          vfrCardImage="/images/NatureBreezeHeader.jpg"
+          vfrName="NATURE BREEZE"
+          vfrCardDescription="To ensure that we are always connect to mother nature"
+          vfrCardPage="/nature"
+        />
+      </div>
     </div>
   );
 }
