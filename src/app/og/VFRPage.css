@@ -28,7 +28,7 @@
   background-position: center;
   background-attachment: fixed;
   z-index: -2;
-  opacity: 80%;
+  opacity: 10%;
 }
 
 .VFRThumbNail {
@@ -50,6 +50,7 @@
 
 .VFRDescription {
   font-size: 2vw;
+  margin-top: -1em;
 }
 
 .VFRMainSection {
@@ -87,7 +88,6 @@
 }
 
 .VFRSection {
-  background: rgba(0, 0, 0, 0.9);
   color: white;
   display: flex;
   flex-direction: row;
@@ -117,4 +117,19 @@
 .VFRDesktopImageContainer,
 .VFRMobileImageContainer {
   width: 50%;
+}
+
+.VFRDesktopTitle {
+  order: 1;
+}
+
+.VFRDesktopImageContainer {
+  order: 2;
+}
+
+.VFRMobileInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center;
 }
