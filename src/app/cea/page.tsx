@@ -28,9 +28,9 @@ export default function Og() {
             <div className="VFRSection">
               <h1 className="VFRTitle">The Original, The Classic!</h1>
               <p className="VFRDescription">
-                You can't miss with the classics, right? <br /> with a default
-                look that never gets old, this layout focuses on the simplier
-                things in life!
+                Our partner since 2024. <br /> they decided to take a shot in
+                developing their own vision of the virtual fitting room <br />
+                bringing a more 'soft on the edges' look the app
               </p>
             </div>
 
