@@ -9,26 +9,27 @@ export default function Home() {
         Welcome to the Virtual Fitting Room Catalog!
       </h1>
       <h2 className="homeFlavourText">
-        Make it your style, create it as your own image!
+        Glance into the infinite sea of possibilities that you can do with your
+        virtual fitting room
       </h2>
       <div className="homeVFRCatalog">
         <VFRCard
-          vfrCardImage="/images/OGHeader.jpg"
-          vfrName="THE ORIGINAL"
-          vfrCardDescription="Cant miss woth the classic right?"
+          vfrCardImage="/images/CEAHeader.png"
+          vfrName="C&A"
+          vfrCardDescription="The classic but with a soft new touch to it!"
+          vfrCardPage="/cea"
+        />
+        <VFRCard
+          vfrCardImage="/images/PurushaHeader.png"
+          vfrName="PURUSHA PEOPLE"
+          vfrCardDescription="Embracing the spirit of nature"
+          vfrCardPage="/purusha"
+        />
+        <VFRCard
+          vfrCardImage="/images/CEAHeader.png"
+          vfrName="CALZEDONIA"
+          vfrCardDescription="Cant miss with the classic right?"
           vfrCardPage="/og"
-        />
-        <VFRCard
-          vfrCardImage="/images/NeoDefaultHeader.jpg"
-          vfrName="NEO DEFAULT"
-          vfrCardDescription="The classic, but with a little touch of modernity!"
-          vfrCardPage="/neo"
-        />
-        <VFRCard
-          vfrCardImage="/images/NatureBreezeHeader.jpg"
-          vfrName="NATURE BREEZE"
-          vfrCardDescription="To ensure that we are always connect to mother nature"
-          vfrCardPage="/nature"
         />
       </div>
     </div>

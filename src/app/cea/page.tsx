@@ -18,7 +18,7 @@ export default function Og() {
       <NavBar />
       <div className="VFRContainer">
         <div className="VFRMainSection">
-          <h1 className="VFRFlavourTitle">REBEL LIKE THE OG!</h1>
+          <h1 className="VFRFlavourTitle">THE SAME BUT DIFFERENT!</h1>
           <div className="VFRThumbNail"></div>
         </div>
 
